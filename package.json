@@ -1,0 +1,18 @@
+{
+  "name": "devburguer.api",
+  "version": "1.0.0",
+  "description": "DevBurguer API",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch src/server.js"
+  },
+  "type": "module",
+  "author": {
+    "name": "Nicholas de Oliveira Sica",
+    "URL": "https://github.com/NicholasdeOliveiraSica"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
