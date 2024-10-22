@@ -2,9 +2,9 @@
   "name": "devburguer.api",
   "version": "1.0.0",
   "description": "DevBurguer API",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
-    "dev": "node --watch src/server.js"
+    "dev": "nodemon"
   },
   "type": "module",
   "author": {
@@ -14,5 +14,11 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "eslint": "^9.13.0",
+    "globals": "^15.11.0",
+    "nodemon": "^3.1.7"
   }
 }
